@@ -1,0 +1,9 @@
+API KEY for news
+83700ea10f284df8bfcf4ac5cf41b0d2
+
+yarn run build
+yarn global add serve
+yarn global add firebase-tools
+
+firebase login
+firebase deploy

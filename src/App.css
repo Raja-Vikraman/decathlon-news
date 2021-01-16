@@ -1,3 +1,46 @@
+
+.more-info-container1 {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.more-info-items1 {
+  border: 1px solid blue;
+}
+
+.more-info-flt-left {
+  float: left;
+  text-align: left;
+}
+
+.more-info-flt-right {
+  float:right;
+}
+
+.more-info-icons {
+  font-size:36px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container1 div {
+  border: 2px solid blue;
+}
+
+
 .App {
   text-align: center;
 }
