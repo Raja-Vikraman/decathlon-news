@@ -34,7 +34,7 @@ export function getNewsMiddleWare(showPage) {
             url:url
         })
         .then(res => {
-            console.log(res.data.articles)
+            // console.log(res.data.articles)
             dispatch(getNews(res.data.articles))
         })
         .catch(err => {

@@ -6,4 +6,8 @@ yarn global add serve
 yarn global add firebase-tools
 
 firebase login
+firebase init
 firebase deploy
+
+
+https://www.freecodecamp.org/news/https-medium-com-gladchinda-hacks-for-creating-javascript-arrays-a1b80cb372b/

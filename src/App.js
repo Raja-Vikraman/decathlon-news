@@ -12,11 +12,11 @@ function App() {
         <div>
           <AppHeader/>
           <Switch>
-            <Route path="/bitcoin" render={(props) => <AppContent showpage="bitcoin"/>} />
-            <Route path="/headlines-us" render={(props) => <AppContent showpage="headlines-us"/>} />
-            <Route path="/apple" render={(props) => <AppContent showpage="apple"/>} />
-            <Route path="/tech-crunch" render={(props) => <AppContent showpage="tech-crunch"/>} />
-            <Route path="/" render={(props) => <AppContent showpage="apple"/>} />
+            <Route path="/bitcoin" component={() => <AppContent showpage="bitcoin"/>} />
+            <Route path="/headlines-us" component={() => <AppContent showpage="headlines-us"/>} />
+            <Route path="/apple" component={() => <AppContent showpage="apple"/>} />
+            <Route path="/tech-crunch" component={() => <AppContent showpage="tech-crunch"/>} />
+            <Route path="/" component={() => <AppContent showpage="apple"/>} />
           </Switch>
         </div>
       </Provider>
